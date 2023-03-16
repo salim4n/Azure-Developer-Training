@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureBlobStorage", "AzureBlobStorage.csproj", "{FA6E3DE3-BB3E-4AEC-9B74-DDEBB619308A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlobApp", "BlobApp", "{9854BA0D-C7C1-4A17-83B9-8C291B40EF6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunction", "AzureFunction", "{7B0C8770-ABD3-4741-8395-9F2E59F7B2F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TanguyFunction", "..\TanguyFunction\TanguyFunction.csproj", "{9FEFB718-BE26-4540-A895-5102E300B922}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTanguyFunc", "..\AzureTanguyFunc\AzureTanguyFunc.csproj", "{2B7DD301-6052-4C01-9269-D678766BDE5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA6E3DE3-BB3E-4AEC-9B74-DDEBB619308A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6E3DE3-BB3E-4AEC-9B74-DDEBB619308A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6E3DE3-BB3E-4AEC-9B74-DDEBB619308A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6E3DE3-BB3E-4AEC-9B74-DDEBB619308A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEFB718-BE26-4540-A895-5102E300B922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEFB718-BE26-4540-A895-5102E300B922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEFB718-BE26-4540-A895-5102E300B922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEFB718-BE26-4540-A895-5102E300B922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7DD301-6052-4C01-9269-D678766BDE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7DD301-6052-4C01-9269-D678766BDE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7DD301-6052-4C01-9269-D678766BDE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7DD301-6052-4C01-9269-D678766BDE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA6E3DE3-BB3E-4AEC-9B74-DDEBB619308A} = {9854BA0D-C7C1-4A17-83B9-8C291B40EF6B}
+		{9FEFB718-BE26-4540-A895-5102E300B922} = {7B0C8770-ABD3-4741-8395-9F2E59F7B2F5}
+		{2B7DD301-6052-4C01-9269-D678766BDE5B} = {7B0C8770-ABD3-4741-8395-9F2E59F7B2F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51D4BA0B-1BEF-4023-963D-C84DC627A735}
+	EndGlobalSection
+EndGlobal
